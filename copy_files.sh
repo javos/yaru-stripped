@@ -2,7 +2,7 @@
 
 working_dir=`pwd`
 icons_dir='/usr/share/icons'
-stripped_dir='/home/vondadil/Pictures/Yaru - Stripped'
+stripped_dir="${working_dir}/Yaru-stripped"
 
 SIZES=(8 16 22 24 32 48 256)
 
@@ -14,7 +14,7 @@ MODES=("light")
 
 ICONS_APPS=(app-center.png filemanager-app.png file-manager.png nautilus.png org.gnome.Nautilus.png software-center.png softwarecenter.png software-properties-gtk.png software-properties.png software-store.png software-updater.png synaptic.png system-file-manager.png system-software-update.png ubiquity.png ubuntusoftware.png update-manager.png update-notifier.png)
 
-ICONS_PLACES=(folder-documents.png folder-download.png folder-dropbox.png folder-music.png folder-pictures.png folder.png folder-publicshare.png folder-remote.png folder-templates.png folder-videos.png inode-directory.png insync-folder.png user-home.png)
+ICONS_PLACES=(folder-documents.png folder-download.png folder-dropbox.png folder-music.png folder-pictures.png folder.png folder-publicshare.png folder-remote.png folder-templates.png folder-videos.png inode-directory.png insync-folder.png user-home.png user-desktop.png)
 
 ICONS_STATUS=(folder-drag-accept.png folder-open.png)
 
